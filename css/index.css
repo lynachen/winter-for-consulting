@@ -145,15 +145,15 @@ p {font-size: 20px;color: #666;}
 .avatar > .become > a {margin-left:10px;}
 
 /*offers*/ 
-.offers .show {margin-top:50px;}
+.offers .show {margin-top:50px;margin-bottom: 50px;}
 .row-down img {margin-top:-30px;}
 /*图片排放位置*/
-.row-up .l img {padding-left: 285px;}
+.row-up .l img {padding-left: 210px;}
 .row-up .r img {}
 .row-down .l img {padding-left: 140px;}
 .row-down .c img {padding-left: 74px;}
 .row-down .r img {padding-left: 40px;}
-
+.treatment p {margin-bottom: 20px;}
 
 /*require*/
 .require .title {
