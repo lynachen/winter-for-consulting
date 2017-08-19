@@ -96,7 +96,7 @@ p {font-size: 20px;color: #666;}
 
 .row {margin-left:0;margin-right: 0;}
 /*index*/
-.carousel {width: 100%;background-color: #f8f7fc;}
+.carousel {width: 100%;background-color: #e5e5e5;margin-top:20px;}
 .b1 {
     background:url(../images/b1.jpg) no-repeat center center;
     height: 450px;
@@ -109,6 +109,7 @@ p {font-size: 20px;color: #666;}
     background:url(../images/b3.jpg) no-repeat center center;
     height: 450px;
 }
+.contact {margin-bottom: 50px;}
 .contact h1 {
     font-size: 28px;
     color: #fdc230;
