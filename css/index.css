@@ -153,7 +153,12 @@ p {font-size: 20px;color: #666;}
 .row-down .l img {padding-left: 140px;}
 .row-down .c img {padding-left: 74px;}
 .row-down .r img {padding-left: 40px;}
+<<<<<<< HEAD
 .treatment p {margin-bottom: 20px;}
+=======
+.treatment p {margin-bottom:20px;}
+
+>>>>>>> f68ea15d8a504b50cc1188e33f3b5dd83e36078e
 
 /*require*/
 .require .title {
