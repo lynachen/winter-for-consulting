@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="../components/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../components/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/index.css">
+	<script src="../components/jquery/dist/jquery.min.js"></script>
+	<script src="../components/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="../js/index.js"></script>
+</head>
+<body>
+	<!--  header -->
+	<div style="background-color: #fff;">
+		<div class="container clearfix menu-logo">
+			<a href="#" class="logo">
+				<img src="../images/logo.png">
+			</a>
+			<ul class="list-inline menu">
+				<li><a href="index.html" class="one-menu">Main</a></li>
+				<li><a href="about.html" class="one-menu">About</a></li>
+				<li><a href="news.html" class="one-menu">News</a></li>
+				<li><a href="offers.html" class="one-menu">Offers</a></li>
+				<li><a href="requirements.html" class="one-menu">Requirements</a></li>
+				<li><a href="application.html" class="one-menu">Application steps</a></li>
+				<li><a href="#" class="one-menu">More<i class="fa fa-angle-down"></i></a>
+					<ul class="list-unstyled two-menu">
+						<li><a href="review.html">Reviews</a></li>
+						<li><a href="service.html">Other services</a></li>
+						<li><a href="contact.html">Contacts</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- content -->
+	<div class="container offers bg">
+		<div class="treatment">
+			<h1 class="title">We offer</h1>
+			<p>- teaching positions in different cities of China, from North to South</p>
+			<p>- supportive and safe conditions of work in kindergartens, training centers or/and public schools</p>
+			<p>- salary starting from 7000 rmb ($1000) per month, which depends on your qualifications, nationality, experience and language abilities</p>
+			<p>- paid public holidays</p>
+			<p>- free accommodation not far from your job place</p>
+			<p>- working visa (if qualified)</p>
+			<p>- support and help in any question during your staying in China</p>
+		</div>
+		<div class="show">
+			<div class="row row-up">
+				<div class="col-md-6 l"><img src="../images/offers/o1.jpg" /></div>
+				<div class="col-md-6 r"><img src="../images/offers/o2.jpg" /></div>
+			</div>
+			<div class="row row-down">
+				<div class="col-md-4 l"><img src="../images/offers/o3.jpg" /></div>
+				<div class="col-md-4 c"><img src="../images/offers/o4.jpg" /></div>
+				<div class="col-md-4 r"><img src="../images/offers/o5.jpg" /></div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- footer -->
+	<div class="footer">
+		<p class="copyright">
+			Copyright 2017 Winter Rights Reserved. 400-xxx-xxxx
+		</p>
+	</div>
+
+	<script>
+		$(function(){
+			$(".one-menu:eq(3)").addClass("curre");
+		})
+	</script>
+</body>
+</html>
