@@ -34,7 +34,7 @@ img{border:0;}
 .logo img {
     text-align: left;
     margin-left: 0;
-    height: 80px;
+    /*height: 80px;*/
 }
 .menu {
     /*display: inline-block;*/
@@ -70,10 +70,11 @@ img{border:0;}
     color: #337ab7;
 }
 .menu .two-menu li:hover {background-color: #2079d2;}
-.active {color:#2b6ca3;}
+.curre {color:#2b6ca3;}
+.fa-angle-down {padding-left:3px;}
 
 /*footer*/
-.footer {margin-top:30px;}
+.footer {margin-top:30px;position: fixed;bottom: 0;right: 0;left: 0;}
 .copyright {
     text-align: center;
     height: 80px;
@@ -81,6 +82,25 @@ img{border:0;}
     background-color: #fff;
 }
 /*content*/
+/*index*/
+.carousel {width: 100%;background-color: #e5e5e5;}
+.b1 {
+    background:url(../images/b1.jpg) no-repeat center center;
+    height: 450px;
+}
+.b2 {
+    background:url(../images/b2.jpg) no-repeat center center;
+    height: 450px;
+}
+.b3 {
+    background:url(../images/b3.jpg) no-repeat center center;
+    height: 450px;
+}
+.contact .fa {
+    font-size: 20px;
+    color:#fdc230;
+    padding-right:20px;
+}
 /*require*/
 .require {
     font-size: 20px;
@@ -91,4 +111,13 @@ img{border:0;}
 .require .req {
     margin-top: 10px;
     margin-left: 30px;
+}
+.dot {
+    display: inline-block;
+    font-weight: normal;
+    width: 10px;
+    height: 10px;
+    background-color: #333;
+    border-radius: 50%;
+    margin-right: 20px;
 }
