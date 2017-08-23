@@ -85,6 +85,27 @@ footer {margin-top:30px;/*position: fixed;*/bottom: 0;right: 0;left: 0;}
     line-height: 80px;
     background-color: #fff;
 }
+/*fixed-btn*/
+.fixed-btn {
+    position: fixed;
+    right: 1%;
+    bottom: 10%;
+    width: 40px;
+    border:1px solid #eee;
+    background-color: #fff;
+    font-size: 24px;
+    z-index: 1040;
+}
+.fixed-btn a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    color:#fdc230;
+}
+.fixed-btn a i {vertical-align: middle;}
+.fixed-btn > .go-top > .fa-angle-up {padding-left: 0;}
+.fixed-btn > .go-top {border-bottom: 1px solid #eee;}
 /*content*/
 .bg {background-color: #f8f7fc;margin-top:30px;margin-bottom: 30px;padding-left: 80px;padding-right: 80px;}
 h1.title {
