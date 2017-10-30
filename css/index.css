@@ -37,14 +37,14 @@ header {
 .menu {
     display: inline-block;
 }
-.menu a {color: #666;}
+.menu a {color: #333;}
 .menu a.curre {color:#f6ad3c;}
 .menu a:hover {text-decoration: none;}
 .menu > li {
     margin-left: 40px;
     position: relative;
 }
-.menu .one-menu {font-size: 18px;}
+.menu .one-menu {font-size: 16px;}
 .menu .two-menu {
     display: none;
     position: absolute;
@@ -114,15 +114,15 @@ p {font-size: 20px;color: #666;}
 /*index*/
 .carousel {width: 100%;background-color: #e5e5e5;margin-top:20px;}
 .b1 {
-    background:url(../images/b1.jpg) no-repeat center center;
+    background:url(../images/banner/b1.jpg) no-repeat center center;
     height: 450px;
 }
 .b2 {
-    background:url(../images/b2.jpg) no-repeat center center;
+    background:url(../images/banner/b2.jpg) no-repeat center center;
     height: 450px;
 }
 .b3 {
-    background:url(../images/b3.jpg) no-repeat center center;
+    background:url(../images/banner/b3.jpg) no-repeat center center;
     height: 450px;
 }
 .contact {margin-bottom: 50px;}
