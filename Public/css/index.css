@@ -1,26 +1,59 @@
-/*reset*/
-body{
-    line-height:1.4;
-    color:#333;
-    font-family:"Microsoft YaHei",Arial;
-    font-size: 14px;    
-    background-color: #efeef4;
-}
-input,textarea,select{
-    font-size:100%;    
-    font-family:inherit;
-}
-body,h1,h2,h3,h4,h5,h6,p,ul,ol,form{
-    margin:0;
-}
-h4,h5,h6{
-    font-size:1em;
-}
-ul,ol{
-    padding-left:0; 
-    list-style-type:none;
-}
-img{border:0;}
+  /*reset*/
+        body{
+            color:#333;
+            font-family:arial;
+            font-size: 12px;
+            font-family: "Microsoft YaHei",sans-serif;
+        }
+        .container {
+            padding-right:0;
+            padding-left:0;
+            min-width: 1170px;
+        }
+        .row {
+            margin-right: 0;
+            margin-left: 0;
+
+        }
+        .col-md-1, .col-md-2, .col-md-3, .col-md-4,
+        .col-md-5, .col-md-6, .col-md-7, .col-md-8,
+        .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+            padding-right: 0;
+            padding-left: 0;
+        }
+        .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {padding:0;}
+
+        input,textarea,select{
+            font-size:100%;    
+            font-family:inherit;
+        }
+        body,h1,h2,h3,h4,h5,h6,p,ul,ol,form{
+            margin:0;
+        }
+        h4,h5,h6{
+            font-size:1em;
+        }
+        ul,ol{
+            padding-left:0; 
+            list-style-type:none;
+        }
+
+        img{border:0;}
+        a {
+            text-decoration: none;
+            color: #333;
+        }
+        a:link,
+        a:visited,
+        a:hover,
+        a:active {
+            text-decoration: none;
+        }
+        a:focus{outline:none !important;} /*解决ie下点击a出现的虚线边框问题*/
+
+        em, i, u {
+            font-style: normal;
+        }
 
 /*header*/
 header {
@@ -108,7 +141,7 @@ h1.title {
     padding-left: 15px;
     border-left: 5px solid #fdc230;
 }
-p {font-size: 20px;color: #666;}
+/*p {font-size: 20px;color: #666;}*/
 
 .row {margin-left:0;margin-right: 0;}
 /*index*/
@@ -191,3 +224,45 @@ p {font-size: 20px;color: #666;}
 
 /*steps*/
 .steps .intro {color: #333;text-align: center;padding-top:30px;padding-bottom: 30px;}
+
+/*-----中文版-----*/
+/*--首页--*/
+.intro-wrapper {margin-top: 22px;}
+.intro-wrapper .side-nav {
+    width: 257px;
+    float: left;
+}
+.intro-wrapper .side-nav a {
+        border-bottom: #f0f0f0 solid 1px;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    text-align: right;
+    font-size: 14px;
+    padding-right: 50px;
+}
+.intro-wrapper .right-cont {
+    float: right;
+}
+.intro-wrapper .right-cont .r-top .breadcrumb {
+    padding:0;
+    margin-bottom: 0;
+    height: 50px;
+    line-height: 50px;
+    text-align: right;
+        padding-left: 20px;
+    padding-right: 20px;
+}
+.intro-wrapper .right-cont .r-title {
+    font-size: 18px;
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    border-left: 2px solid #f6ad3c;
+}
+.intro-wrapper .right-cont .r-about p {
+    font-size: 14px;
+    color: #333;
+}
+
