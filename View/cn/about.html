@@ -37,42 +37,34 @@
 		</div>
 	</div>
 	<!-- content -->
-	<div class="container">
-		<div id="myCarousel" class="carousel slide">
-			<ol class="carousel-indicators">
-				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-				<li data-target="#myCarousel" data-slide-to="1"></li>
-				<li data-target="#myCarousel" data-slide-to="2"></li>
-			</ol>
-			<div class="carousel-inner">
-				<div class="item active b1"></div>
-				<div class="item b2"></div>
-				<div class="item b3"></div>
-			</div>
-		</div>
-	</div>
+	<div class="page-bg bg1"></div>
 	<div class="container">
 		<div class="intro-wrapper row">
 			<div class="col-md-3 side-nav">
-				<ul>
+				<ul class="list-unstyled">
 					<li>
 						<i class="fa fa-plus-square"></i>
-						<a href="javascript:;">公司介绍</a>
+						<a href="about.html">关于温特</a>
 						<i class="fa fa-caret-right"></i>
 					</li>
 					<li>
 						<i class="fa fa-plus-square"></i>
-						<a href="javascript:;">公司介绍</a>
+						<a href="business.html">业务介绍</a>
 						<i class="fa fa-caret-right"></i>
 					</li>
 					<li>
 						<i class="fa fa-plus-square"></i>
-						<a href="javascript:;">公司介绍</a>
+						<a href="cooperation.html">合作流程</a>
 						<i class="fa fa-caret-right"></i>
 					</li>
 					<li>
 						<i class="fa fa-plus-square"></i>
-						<a href="javascript:;">公司介绍</a>
+						<a href="show.html">外教风采</a>
+						<i class="fa fa-caret-right"></i>
+					</li>
+					<li>
+						<i class="fa fa-plus-square"></i>
+						<a href="contact.html">联系我们</a>
 						<i class="fa fa-caret-right"></i>
 					</li>
 				</ul>
@@ -113,12 +105,13 @@
 	<div class="footer-wrapper">
 		<div class="container">
 			<div class="footer-link">
-				<a href="/about.html">关于温特</a>|
-				<a href="/headhunting.html">产品与服务</a>|
-				<a href="/join.html">加入我们</a>|
+				<a href="about.html">关于温特</a>|
+				<a href="business.html">业务介绍</a>|
+				<a href="business.html">合作流程</a>|
+				<a href="show.html">外教风采</a>|
 				<a href="/law.html">法律声明</a>|
 				<a href="/links.html">友情链接</a>|
-				<a href="/contact.html">联系我们</a>
+				<a href="contact.html">联系我们</a>
 			</div>
 			<div class="footer-content">
 				<a href="">English</a>
@@ -140,19 +133,11 @@
 		</div>
 	</div>
 	<style>
-.carousel {width: 100%;background-color: #e5e5e5;}
-.b1 {
-    background:url(../../Public/images/banner/b1.jpg) no-repeat center center;
-    height: 450px;
-}
-.b2 {
-    background:url(../../Public/images/banner/b2.jpg) no-repeat center center;
-    height: 450px;
-}
-.b3 {
-    background:url(../../Public/images/banner/b3.jpg) no-repeat center center;
-    height: 450px;
-}
+		.header .header-nav .menu li:nth-child(2) a {color: #e60012;}
+		.side-nav ul li:nth-child(1) a {background-color: #C02120;color: #fff;}
+		.side-nav ul li:nth-child(1) i.fa-plus-square:before,
+		.side-nav ul li:nth-child(1) i.fa-caret-right:before {color: #fff;}
+
 	</style>
 	<script>
 	$('#myCarousel').carousel({

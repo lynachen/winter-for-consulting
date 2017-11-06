@@ -1,70 +1,67 @@
   /*reset*/
-        body{
-            color:#333;
-            font-family:arial;
-            font-size: 12px;
-            font-family: "Microsoft YaHei",sans-serif;
-        }
-        .container {
-            padding-right:0;
-            padding-left:0;
-            min-width: 1170px;
-            position: relative;
-        }
-        .row {
-            margin-right: 0;
-            margin-left: 0;
+  body{
+    color:#333;
+    font-family:arial;
+    font-size: 12px;
+    font-family: "Microsoft YaHei",sans-serif;
+}
+.container {
+    padding-right:0;
+    padding-left:0;
+    min-width: 1170px;
+    position: relative;
+}
+.row {
+    margin-right: 0;
+    margin-left: 0;
 
-        }
-        .col-md-1, .col-md-2, .col-md-3, .col-md-4,
-        .col-md-5, .col-md-6, .col-md-7, .col-md-8,
-        .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
-            padding-right: 0;
-            padding-left: 0;
-        }
-        .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {padding:0;}
+}
+.col-md-1, .col-md-2, .col-md-3, .col-md-4,
+.col-md-5, .col-md-6, .col-md-7, .col-md-8,
+.col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    padding-right: 0;
+    padding-left: 0;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {padding:0;}
 
-        input,textarea,select{
-            font-size:100%;    
-            font-family:inherit;
-        }
-        body,h1,h2,h3,h4,h5,h6,p,ul,ol,form{
-            margin:0;
-        }
-        h4,h5,h6{
-            font-size:1em;
-        }
-        ul,ol{
-            padding-left:0; 
-            list-style-type:none;
-        }
+input,textarea,select{
+    font-size:100%;    
+    font-family:inherit;
+}
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,form{
+    margin:0;
+}
+h4,h5,h6{
+    font-size:1em;
+}
+ul,ol{
+    padding-left:0; 
+    list-style-type:none;
+}
 
-        img{border:0;}
-        a {
-            text-decoration: none;
-            color: #333;
-        }
-        a:link,
-        a:visited,
-        a:hover,
-        a:active {
-            text-decoration: none;
-        }
-        a:focus{outline:none !important;} /*解决ie下点击a出现的虚线边框问题*/
+img{border:0;}
+a {
+    text-decoration: none;
+    color: #333;
+}
+a:link,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+}
+a:focus{outline:none !important;} /*解决ie下点击a出现的虚线边框问题*/
 
-        em, i, u {
-            font-style: normal;
-        }
+em, i, u {
+    font-style: normal;
+}
 
 /*header*/
 .header {
-    position: absolute;
     width: 100%;
     background-color: #fff;
     height: 80px;
     line-height: 80px;
-    box-shadow: 0 2px 2px rgba(0,0,0,.2);
-    z-index: 99;
 }
 .header .header-logo {
     float: left;
@@ -117,15 +114,20 @@
     font-size: 14px;
 }
 .header .header-nav .menu .two-menu li:hover a {color: #fdc230;}
-.header .hotline strong {
-    font-weight: normal;
-    display: inline-block;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #f74718;
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;    
-}
 .fa-angle-down,.fa-angle-up {padding-left:5px;}
-
+/*bg*/
+.page-bg {
+    height: 250px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.page-bg.bg1 {background-image: url(../images/bg/1.jpg);}
+.page-bg.bg2 {background-image: url(../images/bg/1.jpg);}
+.page-bg.bg3 {background-image: url(../images/bg/1.jpg);}
+.page-bg.bg4 {background-image: url(../images/bg/1.jpg);}
+.page-bg.bg5 {background-image: url(../images/bg/1.jpg);}
 /*footer*/
 .footer-wrapper {
     margin-top:30px;
@@ -142,7 +144,7 @@
     padding:0 20px;
     color: #fff;
 }
-.footer-wrapper .footer-link a:hover {color: #e60012}
+.footer-wrapper .footer-link a:hover {color: #e60012;}
 .footer-wrapper .footer-content {
     padding-left: 20px;
     height: 34px;
@@ -289,6 +291,7 @@ h1.title {
     width: 200px;
     float: left;
 }
+.intro-wrapper .side-nav-en {width: 240px;}
 .intro-wrapper .side-nav li {
     background-color: #f5f6f7;
     position: relative;
@@ -325,7 +328,7 @@ h1.title {
     height: 50px;
     line-height: 50px;
     text-align: right;
-        padding-left: 20px;
+    padding-left: 20px;
     padding-right: 20px;
 }
 .intro-wrapper .right-cont .r-top .breadcrumb .fa-home:before {color: #666;}
@@ -347,5 +350,12 @@ h1.title {
     font-size: 14px;
     color: #333;
     text-indent: 2em;
+}
+.intro-wrapper .right-cont .hotline strong {
+    font-weight: normal;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f74718;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;    
 }
 
