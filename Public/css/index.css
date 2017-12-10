@@ -128,6 +128,27 @@ em, i, u {
 .page-bg.bg3 {background-image: url(../images/bg/1.jpg);}
 .page-bg.bg4 {background-image: url(../images/bg/1.jpg);}
 .page-bg.bg5 {background-image: url(../images/bg/1.jpg);}
+
+.friend-title {
+    font-size: 20px;
+    display: inline-block;
+    float: left;
+    margin-right: 20px;
+    margin-top: 14px;
+}
+.friend-list {width: 80%;display: inline-block;}
+.friend-list .list-1 {margin-bottom: 10px;}
+.friend-list .list-1 img {
+    width: 220px;
+    height: auto;
+    transition: transform .3s;
+}
+.friend-list .list-2 img {
+    width: 100px;
+    height: auto;
+    transition: transform .3s;
+}
+.friend-list ul li img:hover {transform: scale(1.1);}
 /*footer*/
 .footer-wrapper {
     margin-top:30px;
@@ -237,17 +258,28 @@ h1.title {
     border-bottom: 1px solid #e5e5e5;    
 }
 .avatar .avatar-list {padding-right: 35px;padding-left:35px;margin-bottom: 20px;}
-.avatar .col-md-3 {
+.avatar .avatar-list li {
+    width: 200px;
+    height: 220px;
+    text-align: center;
+    overflow: hidden;
     position: relative;
-    height: 210px;
+    padding-top: 20px;
 }
+.avatar .avatar-list li img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    transition: transform .3s;
+}
+.avatar .avatar-list li img:hover {transform: scale(1.1);}
 
-.avatar .col-md-3 > i {
+.avatar .avatar-list li > i {
     position: absolute;
     font-style: normal;
-    bottom: 0;
+    bottom: 20px;
     left: 50%;
-    margin-left: -60px;
+    margin-left: -28px;
 }
 .avatar > .become {font-size: 18px;color: #fdc230;text-align: center;margin-bottom: 20px;}
 .avatar > .become > a {margin-left:10px;}
