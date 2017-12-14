@@ -158,7 +158,7 @@ em, i, u {
     color: #fff;    
 }
 .footer-wrapper .footer-link {
-    padding-top: 22px;
+    padding-top: 18px;
 }
 .footer-wrapper .footer-link a {
     padding:0 20px;
@@ -207,6 +207,7 @@ em, i, u {
 }
 .footer-wrapper .copyright {
     text-align: center;
+    line-height: 22px;
 }
 
 /*fixed-btn*/
