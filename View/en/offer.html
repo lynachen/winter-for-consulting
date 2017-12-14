@@ -11,6 +11,7 @@
 	<title>Offer</title>
 	<link rel="stylesheet" type="text/css" href="../../Public/components/bootstrap/dist/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="../../Public/components/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="../../Public/components/animate/animatecss/animate.min.css">
 	<link rel="stylesheet" type="text/css" href="../../Public/css/index.css">
 	<script src="../../Public/components/jquery/dist/jquery.min.js"></script>
 	<script src="../../Public/components/bootstrap/dist/js/bootstrap.min.js"></script>
@@ -62,7 +63,7 @@
 				</div>
 				<h1 class="r-title">Offer</h1>
 				<div class="r-about">
-					<div class="circular">
+<!-- 					<div class="circular">
 						<svg viewBox="0 0 100 100">
 							<path d="M 0,50 a 50,50 0 1,1 0,1 z"  id="circle1"/>
 							<text>
@@ -102,16 +103,53 @@
 								</textPath>
 							</text>
 						</svg>
+					</div> -->
+					<h3>Cities :</h3>
+					<div class="city-group">
+						<div class="ellipse-bg animated fadeInLeft">
+							Around Beijing
+						</div>
+						<div class="cities animated fadeInRight">
+							Beijing , Tianjin ,<br />Yanjiao , Langfang , <br /> Shijiazhuang , etc..
+						</div>						
 					</div>
-					<p style="margin-top: 40px;">
-						Offers :   around whole china and different types of schools or companies
-					</p>
-					<p>
-						Employers : public school (primary to high school ) , universities ,
+					<div class="city-group">
+						<div class="cities animated fadeInLeft">
+							Shanghai , Suzhou ,<br />Hangzhou , Wuxi ,<br />Taicang , Kunshan , etc..
+						</div>
+						<div class="ellipse-bg animated fadeInRight">
+							Around shanghai
+						</div>
+					</div>
+					<div class="city-group">
+						<div class="ellipse-bg animated fadeInLeft">
+							Around Guangzhou
+						</div>						
+						<div class="cities animated fadeInRight">
+							Guangzhou , Shenzhen ,<br />Foshan , Zhongshan ,<br />Dongguan , etc..
+						</div>
+					</div>
+					<div class="city-group">
+						<div class="cities animated fadeInLeft">
+							Chengdu , Chongqing , Dalian , Shenyang ,<br />Qingdao , Kunming, Wenzhou ,
+							Fuzhou , Xiamen ,<br />Zhuhai , Haikou , Sanya , Taiyuan , Xi'an , etc..
+
+						</div>
+						<div class="ellipse-bg animated fadeInRight">
+							Other nice cities
+						</div>
+					</div>
+					
+					<h3>Offers :</h3>   
+					<span>the different types of schools or companies in China
+					</span>
+					<br />
+					<h3>Employers :</h3> 
+					<span>public school (primary to high school ) , universities ,
 						International schools , education company , traning centers ,private kindergartens ,
 						Gym center , personal employer and so on 
 						Salary :8k-25k , English native speaker is higher , and subjects teacher is higher , experienced teacher is higher .
-					</p>
+					</span>
 				</div>
 			</div>
 		</div>
@@ -120,26 +158,63 @@
 
 	<!-- footer -->
 	<div id="footer-wrapper"></div>
-<style>
-		.header .header-nav .menu li:nth-child(5) a {color: #e60012;}
-		.side-nav ul li:nth-child(4) a {background-color: #C02120;color: #fff;}
-		.side-nav ul li:nth-child(4) i.fa-plus-square:before,
-		.side-nav ul li:nth-child(4) i.fa-caret-right:before {color: #fff;}
-
-     .circular {
-display: inline-block;
-    width: 140px;
-    height: 140px;
-    margin-right: 66px;
-    margin-top: 30px;
-     }
-     .circular svg {
-      display:block;
-      overflow:visible;
-     }
-     .circular path{
-     fill:none;
-     }
+	<style>
+	.header .header-nav .menu li:nth-child(5) a {color: #e60012;}
+	.side-nav ul li:nth-child(4) a {background-color: #C02120;color: #fff;}
+	.side-nav ul li:nth-child(4) i.fa-plus-square:before,
+	.side-nav ul li:nth-child(4) i.fa-caret-right:before {color: #fff;}
+	.r-about h3 {
+		display: inline-block;
+		font-size: 20px;
+		margin-top: 20px;
+		font-weight: 700;
+		color: #002141;
+	}
+	.r-about span {
+    line-height: 20px;
+    color: #002141;
+    font-size: 14px;
+    font-weight: 600;
+	}
+	.city-group {margin-bottom: 32px;}
+	.city-group .ellipse-bg {
+		background: url(../../Public/images/bg/bg.png) no-repeat center center;
+		border-radius: 50%;
+		width: 240px;
+		height: 120px;
+		line-height: 120px;
+		text-align: center;
+		font-size: 20px;
+		color: #fff;
+		display: inline-block;
+	}
+	.city-group .cities {
+    display: inline-block;
+    width: 58%;
+    font-size: 14px;
+    text-align: right;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-size: 72px 23px;
+    color: #002141;
+    font-weight: 600;
+	}
+	.city-group .cities.fadeInRight {
+		background-image: url(../../Public/images/offers/arrow.png);
+		background-position: left center;
+		text-align: left;
+		padding-left: 90px;
+	}
+	.city-group .cities.fadeInLeft {
+		background-image: url(../../Public/images/offers/arrow-left.png);
+		background-position: right center;	
+		padding-right: 90px;	
+		width: 64%;
+	}
+	.animated {
+		-webkit-animation-duration: 2s;
+		animation-duration: 2s;
+	}
 </style>
 <script>
 	$("#header-wrapper").load("header.html");

@@ -20,7 +20,7 @@
 	<!--  header -->
 	<div id="header-wrapper"></div>
 	<!-- content -->
-    <div class="page-bg bg4"></div>
+	<div class="page-bg bg4"></div>
 	<div class="container">
 		<div class="intro-wrapper row">
 			<div class="col-md-3 side-nav side-nav-en">
@@ -83,19 +83,25 @@
 
 	<!-- footer -->
 	<div id="footer-wrapper"></div>
-<style>
-		.header .header-nav .menu li:nth-child(2) a {color: #e60012;}
-		.side-nav ul li:nth-child(1) a {background-color: #C02120;color: #fff;}
-		.side-nav ul li:nth-child(1) i.fa-plus-square:before,
-		.side-nav ul li:nth-child(1) i.fa-caret-right:before {color: #fff;}
+	<style>
+	.header .header-nav .menu li:nth-child(2) a {color: #e60012;}
+	.side-nav ul li:nth-child(1) a {background-color: #C02120;color: #fff;}
+	.side-nav ul li:nth-child(1) i.fa-plus-square:before,
+	.side-nav ul li:nth-child(1) i.fa-caret-right:before {color: #fff;}
+	.intro-wrapper .right-cont .r-about p {
+		line-height: 26px;
+		color: #002141;
+		font-size: 14px;
+		font-weight: 600;
+	}
 </style>
 
-	<script>
-		$(function(){
-			$(".one-menu:eq(1)").addClass("curre");
-		})
+<script>
+	$(function(){
+		$(".one-menu:eq(1)").addClass("curre");
+	})
 	$("#header-wrapper").load("header.html");
 	$("#footer-wrapper").load("footer.html");
-	</script>
+</script>
 </body>
 </html>
