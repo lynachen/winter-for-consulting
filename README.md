@@ -2,4 +2,4 @@
 
 A website called "Winter" for consulting
 
- https://lynachen.github.io/winter-for-consulting/V
+ https://lynachen.github.io/winter-for-consulting/Views/cn/index.html
