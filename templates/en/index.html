@@ -59,45 +59,44 @@
 	<!-- footer -->
 	<div id="footer-wrapper"></div>
 
-<style>
-.header {
-    position: absolute;
-    width: 100%;
-    background-color: #fff;
-    height: 80px;
-    line-height: 80px;
-    box-shadow: 0 2px 2px rgba(0,0,0,.2);
-    z-index: 99;
-}
-	.swiper-pagination-bullet-active {background-color: #fff;}
-	.swiper-pagination-bullet {
-		width: 26px;
-		height: 4px;
-		background-color: #fff;
-		border-radius: 0;
-		opacity: .5;
+	<style>
+	.header {
+	    position: absolute;
+	    width: 100%;
+	    background-color: #fff;
+	    height: 80px;
+	    line-height: 80px;
+	    box-shadow: 0 2px 2px rgba(0,0,0,.2);
+	    z-index: 99;
 	}
-
-	.swiper-pagination-bullet-active {opacity: 1;}
-	.swiper-slide {
-		width: 100%;
-		height: 600px;
-		background-repeat: no-repeat;
-		background-position: center;
-		background-size: cover;
-		cursor: pointer;
-	}
-	.bg1 {background-image:url(../../assets/img/banner/b1.jpg);}
-	.bg2 {background-image:url(../../assets/img/banner/b2.jpg);}
-	.bg3 {background-image:url(../../assets/img/banner/b3.jpg);}
-	.bg4 {background-image:url(../../assets/img/banner/b4.jpg);}
-	.bg5 {background-image:url(../../assets/img/banner/b5.jpg);}
-	.header .header-nav .menu li:nth-child(1) a {color: #e60012;}
-</style>
-		<script src="../../assets/libs/jquery-1.12.4/jquery.min.js"></script>
-	<!-- <script src="../../assets/libs/bootstrap/dist/js/bootstrap.min.js"></script> -->
+		.swiper-pagination-bullet-active {background-color: #fff;}
+		.swiper-pagination-bullet {
+			width: 26px;
+			height: 4px;
+			background-color: #fff;
+			border-radius: 0;
+			opacity: .5;
+		}
+	
+		.swiper-pagination-bullet-active {opacity: 1;}
+		.swiper-slide {
+			width: 100%;
+			height: 600px;
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: cover;
+			cursor: pointer;
+		}
+		.bg1 {background-image:url(../../assets/img/banner/b1.jpg);}
+		.bg2 {background-image:url(../../assets/img/banner/b2.jpg);}
+		.bg3 {background-image:url(../../assets/img/banner/b3.jpg);}
+		.bg4 {background-image:url(../../assets/img/banner/b4.jpg);}
+		.bg5 {background-image:url(../../assets/img/banner/b5.jpg);}
+		.header .header-nav .menu li:nth-child(1) a {color: #e60012;}
+	</style>
+	<script src="../../assets/libs/jquery-1.12.4/jquery.min.js"></script>
 	<script src="../../assets/libs/swiper-4.3.3/swiper.min.js"></script>
-	<script src="../../assets/js/index.js"></script>
+	<script src="../../assets/js/common.js"></script>
 	<script>
 		var mySwiper = new Swiper ('.swiper-container', {
 			autoplay: true,
@@ -117,9 +116,6 @@
     		},
 
     	})  
-    	
-	$("#header-wrapper").load("header.html");
-	$("#footer-wrapper").load("footer.html");
 	</script>
 </body>
 </html>

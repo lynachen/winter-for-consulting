@@ -76,75 +76,45 @@
 
 
 	<!-- footer -->
-	<div class="footer-wrapper">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6 footer-link">
-					<a href="about.html">关于温特</a>|
-					<a href="business.html">业务介绍</a>|
-					<a href="business.html">合作流程</a>|
-					<a href="show.html">外教风采</a>|
-					<a href="contact.html">联系我们</a><br>
-					<br>
-					<br>
-					<a href="../en/index.html">English</a>
-				</div>
-				<div class="col-md-2 footer-center">
-					<p>微信公众号</p>
-					<img src="../../assets/img/home/qr.jpg" alt="" style="width: 102px;">
-				</div>
-				<div class="col-md-4 footer-right">
-					<p><i class="fa fa-phone"></i><i>：0311-66176901</i></p>
-					<p><i class="fa fa-weixin"></i><i>：Rosyclouds66 / Zxy-della</i></p>
-				</div>
-			</div>
-			<div class="footer-content">
-				<p class="copyright">
-					Copyright ©<i class="year"></i> Winter All Rights Reserved&nbsp;&nbsp;&nbsp;&nbsp;备案号：冀ICP备17032669号<br>
-					公司：河北温特人力资源服务有限公司&nbsp;&nbsp;&nbsp;&nbsp;地址：河北省石家庄市桥西区，胜利南大街126号，泰丰观湖1号楼1单元2502
-			</p>
-			</div>
-		</div>
-	</div>
+	<div id="footer-wrapper"></div>
 	<style>
-	.header {
-		position: absolute;
-		width: 100%;
-		background-color: #fff;
-		height: 80px;
-		line-height: 80px;
-		box-shadow: 0 2px 2px rgba(0,0,0,.2);
-		z-index: 99;
-	}
-	.swiper-pagination-bullet-active {background-color: #fff;}
-	.swiper-pagination-bullet {
-		width: 26px;
-		height: 4px;
-		background-color: #fff;
-		border-radius: 0;
-		opacity: .5;
-	}
-
-	.swiper-pagination-bullet-active {opacity: 1;}
-	.swiper-slide {
-		width: 100%;
-		height: 600px;
-		background-repeat: no-repeat;
-		background-position: center;
-		background-size: cover;
-		cursor: pointer;
-	}
-	.bg1 {background-image:url(../../assets/img/banner/b1.jpg);}
-	.bg2 {background-image:url(../../assets/img/banner/b2.jpg);}
-	.bg3 {background-image:url(../../assets/img/banner/b3.jpg);}
-	.bg4 {background-image:url(../../assets/img/banner/b4.jpg);}
-	.bg5 {background-image:url(../../assets/img/banner/b5.jpg);}
-	.header .header-nav .menu li:nth-child(1) a {color: #e60012;}
+		.header {
+			position: absolute;
+			width: 100%;
+			background-color: #fff;
+			height: 80px;
+			line-height: 80px;
+			box-shadow: 0 2px 2px rgba(0,0,0,.2);
+			z-index: 99;
+		}
+		.swiper-pagination-bullet-active {background-color: #fff;}
+		.swiper-pagination-bullet {
+			width: 26px;
+			height: 4px;
+			background-color: #fff;
+			border-radius: 0;
+			opacity: .5;
+		}
+	
+		.swiper-pagination-bullet-active {opacity: 1;}
+		.swiper-slide {
+			width: 100%;
+			height: 600px;
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: cover;
+			cursor: pointer;
+		}
+		.bg1 {background-image:url(../../assets/img/banner/b1.jpg);}
+		.bg2 {background-image:url(../../assets/img/banner/b2.jpg);}
+		.bg3 {background-image:url(../../assets/img/banner/b3.jpg);}
+		.bg4 {background-image:url(../../assets/img/banner/b4.jpg);}
+		.bg5 {background-image:url(../../assets/img/banner/b5.jpg);}
+		.header .header-nav .menu li:nth-child(1) a {color: #e60012;}
 	</style>
-		<script src="../../assets/libs/jquery-1.12.4/jquery.min.js"></script>
-	<!-- <script src="../../assets/libs/bootstrap/dist/js/bootstrap.min.js"></script> -->
+	<script src="../../assets/libs/jquery-1.12.4/jquery.min.js"></script>
 	<script src="../../assets/libs/swiper-4.3.3/swiper.min.js"></script>
-	<script src="../../assets/js/index.js"></script>
+	<script src="../../assets/js/common.js"></script>
 	<script>
 		var mySwiper = new Swiper ('.swiper-container', {
 			autoplay: true,
@@ -165,13 +135,6 @@
 
     	})  
 
-	</script>
-	<script>
-		$(function(){
-			var date=new Date;
-			var year=date.getFullYear(); 
-			$(".year").text(year);
-		})
 	</script>
 </body>
 </html>
