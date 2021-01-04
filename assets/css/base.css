@@ -239,5 +239,115 @@ label.error {
     -webkit-transition:all 1s;
 }
 
-
-
+.footer-wrapper {
+	background-color: #313131;
+	padding: 40px 0;
+	color: #fff;
+}
+.footer-wrapper .footer-top {
+	display: flex;
+	align-items: center;
+}
+.footer-wrapper .footer-top > div {
+	flex: 1;
+	text-align: center;
+}
+.footer-wrapper .footer-top .tl {
+	font-size: 14px;
+	color: #fff;
+	text-align: left;
+} 
+.footer-wrapper .footer-top .tl .img img {
+	display: inline-block;
+	width: 155px;
+}
+.footer-wrapper .footer-top .tl p {
+    margin-top: 16px;
+    margin-bottom: 10px;
+}
+.footer-wrapper .footer-top .tl a {
+	padding: 0 6px;
+	color: #fff;
+}
+.footer-wrapper .footer-top .tl a:hover {
+	text-decoration: underline;
+}
+.footer-wrapper .footer-top .tc {
+	position: relative;
+	display: flex;
+	padding: 0 5%;
+}
+.footer-wrapper .footer-top .tc:before,
+.footer-wrapper .footer-top .tc:after {
+	content: "";
+	position: absolute;
+	width: 1px;
+	height: 100px;
+	border-style: solid;
+	border-width: 1px;
+	border-image-source: linear-gradient(0deg, 
+		#000000 0%, 
+		#808080 0%, 
+		#ffffff 0%, 
+		#989898 0%, 
+		#313131 0%, 
+		#ffffff 50%, 
+		#313131 100%);
+	border-image-slice: 1;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+.footer-wrapper .footer-top .tc:before {
+	left: 0;
+}
+.footer-wrapper .footer-top .tc:after {
+	right: 0;
+}
+.footer-wrapper .footer-top .tc div {
+	flex: 1;
+}
+.footer-wrapper .footer-top .tc img {
+	display: inline-block;
+	width: 115px;
+}
+.footer-wrapper .footer-top .tc p {
+    margin-top: 14px;
+    font-size: 14px;
+}
+.footer-wrapper .footer-top .tr .hot-line {
+	font-size: 14px;
+	line-height: 1.8;
+}
+.footer-wrapper .footer-top .tr .hot-line span {
+	vertical-align: middle;
+}
+.footer-wrapper .footer-top .tr a {
+	display: inline-block;
+	width: 130px;
+	height: 35px;
+	line-height: 35px;
+	background-color: #fff;
+	border-radius: 5px;
+	font-size: 14px;
+	color: #333;
+}
+.footer-wrapper .footer-top .tr a:hover {
+	background-color: #f6ac00;
+	color: #fff;
+}
+.footer-wrapper .footer-bot {
+	text-align: center;
+	font-size: 12px;
+	margin-top: 30px;
+	line-height: 1.8;
+}
+.footer-wrapper .footer-bot a {
+	color: #fff;
+}
+.footer-wrapper .footer-bot a:hover {
+	text-decoration: underline;
+}
