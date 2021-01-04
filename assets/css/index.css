@@ -136,8 +136,10 @@
     line-height: 34px;
 }
 .footer-wrapper .footer-content a {
-    color: rgba(255,255,255,.6);
-    font-size: 14px;
+    color: #919191;
+}
+.footer-wrapper .footer-content a:hover {
+	text-decoration: underline;
 }
 .footer-wrapper .footer-center {
     text-align: center;
